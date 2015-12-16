@@ -1,17 +1,31 @@
-*.iml
-.idea
-.DS_Store
+
+# Operating System Files
+
+*.DS_Store
+Thumbs.db
+
+# Build Files #
+
+bin
+target
+build/
+.gradle
+
+# Eclipse Project Files #
+
 .classpath
-.settings/
 .project
-*.prefs
-.*.swp
-target/
-phantomjsdriver.log
-.cache
-.tmpBin
+.settings
+
+# IntelliJ IDEA Files #
+
+*.iml
+*.ipr
+*.iws
+*.idea
+
+# Spring Bootstrap artifacts
+
 dependency-reduced-pom.xml
-*.orig
-*.mwb.bak
-dump.rdb
-pom.xml.versionsBackup
+out
+README.html
