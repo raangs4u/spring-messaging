@@ -1,0 +1,17 @@
+*.iml
+.idea
+.DS_Store
+.classpath
+.settings/
+.project
+*.prefs
+.*.swp
+target/
+phantomjsdriver.log
+.cache
+.tmpBin
+dependency-reduced-pom.xml
+*.orig
+*.mwb.bak
+dump.rdb
+pom.xml.versionsBackup
